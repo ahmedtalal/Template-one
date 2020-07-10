@@ -1,0 +1,283 @@
+/* start main rule */
+body{
+    font-family: Arial , tahoma , sans-serif;
+
+}
+/* end main rule */
+/* container */
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* container*/
+
+/* start header*/
+.header .slider {
+    background-color: #EEE;
+    height: 600px;
+    background-image: url('/Images/photographer.jpg');
+    background-size: cover;
+}
+
+.header .slider  .info {
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    padding-top: 200px;
+}
+
+.header .slider  .info h2 {
+    margin: 0 auto;
+    width: 600px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+}
+
+.header .slider  .info button {
+    margin-top: 30px;
+    background: none;
+    width: 200px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 12px;
+    border-radius: 15px;
+
+}
+
+.header .slider  .info button:hover {
+    background-color: tomato;
+}
+
+.header .nav {
+    background-color: #32393a;
+    overflow: hidden;
+}
+
+.header .nav h2 {
+    float: left;
+    color: #FFF;
+}
+.header .nav h2 span{
+   color: rgb(197, 8, 8);
+   font-size: 30px;
+}
+.header .nav ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .nav ul li {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.header .nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header .nav .active {
+    color: #191e22;
+}
+.header .nav ul li a:hover{
+    color: #191e22;
+
+}
+
+/* end header */
+
+/*  start features */
+.features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 56px;
+}
+
+.features .section {
+    float: left;
+    width: 33.33333%;
+    height: 200px;
+}
+
+.features .section h2 {
+    color: #555;
+    padding-left: 10px;
+}
+
+.features .section p {
+   line-height: 1.6;
+   padding: 10px;
+   color: #a19f9f;
+}
+
+/* end features */
+
+/* start about me */
+.aboutMe {
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.aboutMe .image {
+    float: left;
+    width: 40%;
+}
+
+.aboutMe .image img {
+    width: 100%;
+}
+.aboutMe .info {
+    float: left;
+    width: 60%;
+}
+
+.aboutMe .info h2{
+    margin-top:30px ;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.aboutMe .info > p{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    line-height: 1.4;
+}
+.aboutMe .info  p{
+    color: rgb(145, 145, 145);
+    line-height: 1.4;
+}
+.aboutMe .info .hobbies{
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.aboutMe .info .hobbies div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+.aboutMe .info .hobbies div h3{
+    color: #555;
+}
+/* end about me */
+
+/* start my skills */
+.mySkills {
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.mySkills .skills {
+    float: left;
+    width: 40%;
+}
+
+.mySkills .skills h2 {
+    color: #555;
+    margin-bottom: 12px;
+}
+.mySkills .skills p {
+    color: rgb(145, 145, 145);
+    line-height: 1.4;
+}
+
+
+.mySkills .skills button {
+    padding: 10px;
+    color: tomato;
+    background: none;
+    border: 2px solid tomato;
+    font-size: 20px;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.mySkills .progress {
+    float: left;
+    width: 60%;
+}
+
+.mySkills .progress h3 {
+    color: #555;
+    margin-left: 50px;
+}
+.mySkills .progress .technique {
+    margin-left: 50px;
+    background-color: #dddddd;
+    height: 30px;
+}
+
+
+.mySkills .progress .technique span {
+    background-color: #2dcc70;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: right;
+    color: #FFF;
+}
+
+/* end my skills */
+
+/* start resume */
+.resume {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 350px;
+}
+
+.resume h2{
+    color: rgb(145, 145, 145);
+    margin-top: 60px;
+
+}
+
+.resume p {
+    line-height: 1.4;
+    color: #555;
+    padding: 10px;
+}
+
+.resume button {
+    padding: 15px;
+    width: 20%;
+    font-size: 20px;
+    margin-top: 40px;
+    background: none;
+    border: 2px solid tomato;
+    color: tomato;
+    border-radius: 10px;
+}
+/* start footer */
+.footer {
+    background-color: #191e22;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    height: 150px;
+}
+
+.footer p{
+    margin-top: 80px;
+}
+.footer span{
+    color: red;
+}
+
+/* end footer */
